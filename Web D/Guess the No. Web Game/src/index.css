@@ -1,0 +1,16 @@
+body{
+  background:darkviolet;
+  color:white;
+  text-align:center;
+  /*margin-top:20px;*/
+  font-size:1.25em;
+  margin: 20% 20% 20% 20%;
+
+}
+
+input, button{
+  font-size:1.25em;
+  text-align:center;
+  border-radius:20px;
+    
+}
