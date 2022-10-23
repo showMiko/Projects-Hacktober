@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+}
+h2{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#counter_el{
+    font-size: xx-large;
+}
+.btn{
+    text-align: center;
+    margin: 2% 30%;
+}
+.btn:active{
+    background-color: brown;
+}
+
+p{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: 600;
+}
