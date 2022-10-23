@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit-N-Fine</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        /* CSS Reset */
+        body{
+        margin:0px;
+        padding: 0px;
+        box-sizing: content-box;
+        background: url('Img/cover.jpg');
+        background-repeat: no-repeat;
+        background-size: 2500px 1800px;
+       background-position: center;      
+        }
+        .header{
+            font-family:'Montserrat', sans-serif ;
+            font-weight: 500;
+        }
+
+        #left_logo{
+            /* border: 2px solid whitesmoke;
+            color: whitesmoke; */
+            /* to make it in left */
+            display: inline-block;
+            width: 190px;
+            box-sizing: content-box;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            line-height: 20px;
+            /* . */
+        }
+        #left_logo img{
+            display: inline-block;
+            width: 52px;
+            height: 52px;
+            filter: invert(100%);
+        }
+        #name{
+            margin-bottom: 10px;
+        }
+        #left_logo #name{
+            display: inline;
+            width: 54%;
+          height: 22px;
+          /* border:2px solid rgb(240, 152, 70); */
+            /* margin: 25px 2px; */
+            font-size: 20px; 
+            text-align: center;
+            color:whitesmoke;
+            font-weight: 800;
+            cursor: default;
+        }
+        #nav_mid{
+            /* border: 2px solid whitesmoke;
+            color: yellow; */
+            /* to make it in center */
+            display: block;
+            width: 55%;  
+            margin: 20px auto;
+            /* . */
+            
+        }
+        .nav_menu{
+            display:inline-block;
+        }
+        .nav_menu li{
+            display: inline-block;
+        }
+        .nav_menu li a{
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 24px; 
+            font-size: 22px;     
+        }
+        .nav_menu li a:hover,.nav_menu li a:active{
+            color:rgb(240, 152, 70);
+            text-decoration: underline;
+        }
+        #right_btn{
+            /* border: 2px solid whitesmoke;
+            color: wheat; */
+            /* to make it in right */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            /* . */
+        }
+        .btn{
+            padding: 4px 14px;
+            margin:20px 12px;
+            color: whitesmoke;
+            background-color: black;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family:'Montserrat', sans-serif ;
+            font-weight: 500;
+            font-size: 17px;
+            
+        }
+        .btn:hover{
+            color: rgb(240, 152, 70);
+        }
+
+       .container{
+            padding: 14px 18px;
+            margin:125px 82px;
+            width: 40%;
+            color: whitesmoke;
+            border: 2px solid rgb(252, 250, 246);
+            border-radius: 15px;
+            font-family:'Montserrat', sans-serif ;
+            font-size: 17px;
+       }
+       .form-group input{
+           display: block;
+           width: 314px;
+           margin:20px auto;
+           padding: 2px;
+           border: 2px solid whitesmoke;
+           border-radius: 10px;
+           text-align: center;
+           font-size: 17px;
+           font-family:'Montserrat', sans-serif ;
+       }
+       .container h1{
+           text-align: center;
+       }
+       .container button{
+           display: block;
+           width:324px;
+           margin: auto auto;
+       }
+    </style>
+</head>
+<body>
+    <header class="header">
+    <div id="left_logo">
+        <img src="Img/muscle.png" alt="logo">
+         <div id="name">Fit-N-Fine</div>    
+    </div>
+    <div id="nav_mid">
+        <ul class="nav_menu">
+           <li id="home"><a href="#"> Home</a></li>
+           <li id="fitness_calculator"><a href="#"> Fitness Calculator</a></li>
+           <li id="contact"><a href="#"> Contact Us</a></li>
+           <li id="about"><a href="#"> About Us</a></li>
+        </ul>
+    </div>
+    <div id="right_btn">
+        <button class="btn">Call Us</button>
+        <button class="btn">E-mail Us</button>
+    </div>
+</header>
+
+<div class="container">
+    <h1>Join to achieve your desired </h1>
+    <form action="noaction.php">
+       
+        <div class="form-group"> <input type="text" name="" id="" placeholder="Enter your name"></div>
+        <div class="form-group"><input type="text" name="" id="" placeholder="Enter your gender"></div>
+        <div class="form-group"><input type="date" name="" id="" placeholder="Enter your date of birth"></div>
+        <div><button class="btn">Submit</button></div>
+</form>
+</div>
+</body>
+</html>
