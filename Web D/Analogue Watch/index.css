@@ -1,13 +1,4 @@
-#clockContainer{
-    position: relative;
-    margin: auto;
-    border: 2px solid red;
-    height: 60vw;
-    width: 60vw;
-    background-color: #ffefb9;
-    background-image: url("1200px-Horloĝo_001.svg.png");
-    background-size: 100%;
-}
+
 #hour,#minute,#second{
     position: absolute;
     background-color: black;
